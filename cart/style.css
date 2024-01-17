@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'kalameh-r', 'vazir', Helvetica, sans-serif;
+    line-height: 2;
+    background-color: #f7f7f7;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+:root {
+    --primary-color: #2e55af;
+    --secondary-color: #69AA53;
+    --green-color: rgb(20 94 20);
+    --third-color: #E7CCB6;
+    --light-color: #f3f3f3;
+    --light-gray-color: #C7CED3;
+    --dark-text-color: #393939;
+    --light-text-color: #a1a1a1;
+    --gray-color: #64748B;
+    --blue-color: #3B82F6;
+    --dark-color: #333;
+    --darker-color: #1a1a1a;
+    --max-width: 1100px;
+    --vazir-font: "vazir";
+    --lalezar-font: "lalezar";
+    --irsans-font: "irsans";
+}
+#navbar {
+    top: 0;
+    -webkit-box-shadow: 0px 0px 44px -26px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 44px -26px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 44px -26px rgba(0,0,0,0.32);
+}
+#footer {
+    margin-top: 0;
+}
+#cart-sec {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 8rem;
+}
+#cart-sec .right-cart-sec {
+    width: 60%;
+}
+#cart-sec .left-cart-sec {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 0 2rem;
+    height: 30rem;
+    position: sticky;
+    top: 5rem;
+}
+#cart-sec .left-cart-sec hr {
+    border: 1px solid #e9e9e9;
+    width: 80%;
+    align-self: center;
+}
+#cart-sec .left-cart-sec > div {
+    width: 100%;
+}
+#cart-sec .left-cart-sec > div div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+#cart-sec .left-cart-sec p {
+    direction: rtl;
+}
+#cart-sec .left-cart-sec .discount {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#cart-sec .left-cart-sec .discount input {
+    border: 1px solid gray;
+    outline: none;
+    font-size: medium;
+    padding: 10px;
+    width: 100%;
+    font-family: 'kalameh-r';
+    text-align: right;
+    color: #474747;
+    background-color: transparent;
+    border-radius: 10px;
+}
+#cart-sec .left-cart-sec .discount button {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    left: 1rem;
+    background-color: #3B82F6;
+    cursor: pointer;
+    font-family: 'kalameh-r';
+    color: #fff;
+}
+#cart-sec .left-cart-sec .payment button {
+    border: 1px solid #3B82F6;
+    outline: none;
+    width: 100%;
+    font-size: large;
+    font-family: 'kalameh-r';
+    border-radius: 5px;
+    padding: 10px 0;
+    background-color: #3B82F6;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.2s;
+}
+#cart-sec .left-cart-sec .payment button:hover {
+    background-color: transparent;
+    color: #3B82F6;
+    transition: all 0.2s;
+}
+.buy-item {
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 10rem;
+    padding: 10px 3rem;
+    margin-bottom: 1rem;
+}
+.buy-item > div:first-child {
+    display: flex;
+    flex-direction: row-reverse;
+    grid-gap: 1rem;
+}
+.buy-item > div:last-child {
+    display: flex;
+    flex-direction: row-reverse;
+    grid-gap: 1rem;
+    align-items: center;
+}
+.buy-item > div > div h2 {
+    text-align: right;
+}
+.buy-item > div > div a {
+    color: #cd4949;
+}
+.buy-item > div > div h2 a {
+    color: #757575;
+}
+.buy-item > div > div p {
+    text-align: right;
+    color: #6f6f6f;
+}
+.buy-item h3 {
+    color: #3B82F6;
+    direction: rtl;
+    font-size: x-large;
+}
+.buy-item .buy-item-pic {
+    width: 7rem;
+    height: 100%;
+    border-radius: 1rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

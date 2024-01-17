@@ -1,0 +1,103 @@
+/* Vazir */
+
+@font-face {
+    font-family: "vazir";
+    src: url(Fonts/Vazir/Vazir.eot);
+    src: url(Fonts/Vazir/Vazir.eot),
+        url(Fonts/Vazir/Vazir.woff),
+        url(Fonts/Vazir/Vazir.ttf), url(Fonts/Vazir/Vazir.eot);
+}
+
+/* IrSans */
+
+@font-face {
+    font-family: "irsans-ul";
+    src: url(Fonts/IrSans/IRANSans-UltraLight.ttf);
+}
+
+
+@font-face {
+    font-family: "irsans-l";
+    src: url(Fonts/IrSans/IRANSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "irsans-m";
+    src: url(Fonts/IrSans/IRANSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "irsans-b";
+    src: url(Fonts/IrSans/IRANSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "irsans-bl";
+    src: url(Fonts/IrSans/IRANSans-Black.ttf);
+}
+
+/* Kalameh */
+
+@font-face {
+    font-family: "kalameh-el";
+    src: url(Fonts/Kalameh/Kalameh-FaNum-ExtraLight.eot);
+    src: url(Fonts/Kalameh/Kalameh-FaNum-ExtraLight.eot),
+        url(Fonts/Kalameh/Kalameh-FaNum-ExtraLight.woff),
+        url(Fonts/Kalameh/Kalameh-FaNum-ExtraLight.woff2);
+}
+
+@font-face {
+    font-family: "kalameh-l";
+    src: url(Fonts/Kalameh/Kalameh-FaNum-Light.eot);
+    src: url(Fonts/Kalameh/Kalameh-FaNum-Light.ttf),
+        url(Fonts/Kalameh/Kalameh-FaNum-Light.woff),
+        url(Fonts/Kalameh/Kalameh-FaNum-Light.woff2);
+}
+
+@font-face {
+    font-family: "kalameh-t";
+    src: url(Fonts/Kalameh/Kalameh-FaNum-Thin.eot);
+    src: url(Fonts/Kalameh/Kalameh-FaNum-Thin.ttf),
+        url(Fonts/Kalameh/Kalameh-FaNum-Thin.woff),
+        url(Fonts/Kalameh/Kalameh-FaNum-Thin.woff2);
+}
+
+@font-face {
+    font-family: "kalameh-m";
+    src: url(Fonts/Kalameh/Kalameh-FaNum-Medium.eot);
+    src: url(Fonts/Kalameh/Kalameh-FaNum-Medium.ttf),
+        url(Fonts/Kalameh/Kalameh-FaNum-Medium.woff),
+        url(Fonts/Kalameh/Kalameh-FaNum-Medium.woff2);
+}
+
+@font-face {
+    font-family: "kalameh-r";
+    src: url(Fonts/Kalameh/Kalameh-FaNum-Regular.eot);
+    src: url(Fonts/Kalameh/Kalameh-FaNum-Regular.ttf),
+        url(Fonts/Kalameh/Kalameh-FaNum-Regular.woff),
+        url(Fonts/Kalameh/Kalameh-FaNum-Regular.woff2);
+}
+
+@font-face {
+    font-family: "kalameh-b";
+    src: url(Fonts/Kalameh/Kalameh-FaNum-Bold.eot);
+    src: url(Fonts/Kalameh/Kalameh-FaNum-Bold.ttf),
+        url(Fonts/Kalameh/Kalameh-FaNum-Bold.woff),
+        url(Fonts/Kalameh/Kalameh-FaNum-Bold.woff2);
+}
+
+@font-face {
+    font-family: "kalameh-eb";
+    src: url(Fonts/Kalameh/Kalameh-FaNum-ExtraBold.eot);
+    src: url(Fonts/Kalameh/Kalameh-FaNum-ExtraBold.ttf),
+        url(Fonts/Kalameh/Kalameh-FaNum-ExtraBold.woff),
+        url(Fonts/Kalameh/Kalameh-FaNum-ExtraBold.woff2);
+}
+
+@font-face {
+    font-family: "kalameh-BL";
+    src: url(Fonts/Kalameh/Kalameh-FaNum-Black.eot);
+    src: url(Fonts/Kalameh/Kalameh-FaNum-Black.ttf),
+        url(Fonts/Kalameh/Kalameh-FaNum-Black.woff),
+        url(Fonts/Kalameh/Kalameh-FaNum-Black.woff2);
+}
