@@ -18,9 +18,6 @@ While commercial usage is prohibited, individuals are eligible to use and modify
 * ### Non-Profit Project: 
 This project is designated as a non-profit initiative. It is not intended for commercial gain, and users are expected to abide by the non-commercial terms outlined in this README.
 
-* ### Project URL:
-> [!NOTE]
-The live version of this project can be accessed at [https://www.cj.wuaze.com](https://www.cj.wuaze.com).
 
 * ### Purpose: 
 The primary purpose of this project is to provide a tool for creating resumes. Users are encouraged to utilize the source code to generate and customize their resumes for personal use.
